@@ -9,7 +9,7 @@ body{
     color: white;
  
 }
-z
+
 
 .text-focus-in{
     animation: text-focus-in 0.8s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
@@ -48,9 +48,7 @@ body::-webkit-scrollbar{
     font-weight: bold;
     justify-content: start;
 }
-li{
-   margin-right: 50px;
-}
+
 li{
 
   list-style-type: none
@@ -62,6 +60,13 @@ width:80px;
 border-radius:100%;
     object-fit:cover;
 }
+.icon1{
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    object-fit: cover;
+    margin: 0%;
+}
 .icontop{
  
     display: flex ;
@@ -70,6 +75,7 @@ border-radius:100%;
 
  
 }
+
 .gg{
     
     margin-left: 15px;
@@ -434,12 +440,10 @@ height: 50vh;
 
 
 }
-footer{
-    width: 100%;
-}
+
 .fot{
     border-top: 5px solid white;
-}
+    }
 /*responsive*/
 
 @media (min-width: 319px) and (max-width: 480px){
